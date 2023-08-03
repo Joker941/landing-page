@@ -1,5 +1,6 @@
-html {
+html, body {
     box-sizing: border-box;
+    height: 100%;
 }
 
 .hero {
@@ -12,7 +13,33 @@ html {
     font-weight: bolder;
 }
 
-.header > a, .description > p {
+.menu > a, .description > p {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > img {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.header > .menu {
+    display: flex;
+    width: 300px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description h1, p, img {
+    border: 1px solid lightsalmon;
+}
+.description {
+    display: flex;
 }
