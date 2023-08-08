@@ -1,19 +1,30 @@
+/* GENERAL */
+
 html, body {
     box-sizing: border-box;
     height: 100%;
+    margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+/* END GENERAL */
+
+/* HERO */
 
 .hero {
     background-color: #1F2937;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
 }
 
-.hero h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-}
+/* END HERO */
 
-.menu > a, .description > p {
+/* HEADER */
+
+.menu > a, .description_text > p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -21,6 +32,7 @@ html, body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .header > img {
@@ -29,17 +41,43 @@ html, body {
     margin-left: 100px;
 }
 
-.header > .menu {
+.header_left {
     display: flex;
-    width: 300px;
-    margin-right: 100px;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-.description h1, p, img {
-    border: 1px solid lightsalmon;
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
+
+.menu > a {
+    margin-right: 15px;
+}
+
+/* END HEADER */
+
+/* DESCRIPTION */
+
 .description {
     display: flex;
+    justify-content: space-between;
 }
+
+.description_text > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.description_text > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px 15px;
+    width: 150px;
+    box-shadow: none;
+}
+/* END DESCRIPTION */
