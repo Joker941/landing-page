@@ -18,6 +18,7 @@ a {
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 /* END HERO */
@@ -81,3 +82,30 @@ a {
     box-shadow: none;
 }
 /* END DESCRIPTION */
+
+/* INFORMATION */
+
+#information > h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info_images {
+    display: flex;
+    justify-content: center;
+}
+
+figure > img {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* END INFORMATION */
+
+    
