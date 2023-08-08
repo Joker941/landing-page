@@ -85,6 +85,9 @@ a {
 
 /* INFORMATION */
 
+#information {
+    padding: 20px;
+}
 #information > h2 {
     text-align: center;
     color: #1F2937;
@@ -107,5 +110,19 @@ figcaption {
 }
 
 /* END INFORMATION */
+
+/* CITATION */
+
+#citation {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* END CITATION */
 
     
