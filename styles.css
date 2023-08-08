@@ -80,6 +80,7 @@ a {
     padding: 5px 15px;
     width: 150px;
     box-shadow: none;
+    border: none;
 }
 /* END DESCRIPTION */
 
@@ -124,5 +125,35 @@ figcaption {
 }
 
 /* END CITATION */
+
+/* CTA */
+
+#cta {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    margin: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cta > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px 15px;
+    width: 150px;
+    box-shadow: none;
+    border: 3px solid #F9FAF8;   
+}
+
+.cta_text > h3 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+/* END CTA */
 
     
